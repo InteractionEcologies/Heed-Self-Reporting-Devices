@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+	shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+
+	<title>HEED Diary</title>
+
+	
+	<link rel="stylesheet" href="ui/css/fonts.css">
+	<link rel="stylesheet" href="ui/css/icon.css">
+	<link rel="stylesheet" href="ui/css/material.indigo-pink.min.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+	<link rel="stylesheet" href="ui/css/offline-theme-default.css">
+	<link rel="stylesheet" href="ui/css/offline-language-english.css">
+	<link rel="stylesheet" tApril 5, 2017ype="text/css" href="ui/css/dialog-polyfill.min.css">
+	<style>
+		#view-source {
+			position: fixed;
+			display: block;
+			right: 0;
+			bottom: 0;
+			margin-right: 40px;
+			margin-bottom: 40px;
+			z-index: 900;
+		}
+	</style>
+	
+
+
+	<script>
+	// Redirect console.log to Evothings Workbench.
+	if (window.hyper && window.hyper.log) { console.log = hyper.log }
+</script>
+<script src="js/libraries/jquery-3.1.1.min.js"></script>
+<script src="js/libraries/riot+compiler.min.js"></script>
+<script src="js/libraries/route.min.js"></script>
+<script src="js/libraries/moment.js"></script>
+<script src="js/libraries/offline.min.js"></script>
+<script src="js/libraries/dialog-polyfill.min.js"></script>
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script src="js/libraries/dimple.v2.3.0.min.js"></script>
+
+</head>
+
+<body ontouchstart="">
+	<app></app>
+
+	<script>
+		OptsMixin = {
+      //   track: function(arg, arg2) {
+      // }
+  }
+  $(function() {
+  	Offline.options = {checks: {image: {url: 'http://gauravparuthi.com/images/favicon.ico'}, active: 'image'}}
+  	riot.mixin(OptsMixin)
+  	riot.mount('app')
+  	route.start(true)
+  });
+
+</script>
+
+
+<script type="riot/tag" src="js/components/daily/app.tag"></script>  
+<script type="riot/tag" src="js/components/daily/diary.tag"></script>
+<script type="riot/tag" src="js/components/daily/reportcell.tag"></script>
+<script type="riot/tag" src="js/components/daily/activityquestions.tag"></script>  
+<script type="riot/tag" src="js/components/dashboard/tb.tag"></script>  
+
+<script src="js/api.js"></script>  
+<script src="js/init.js"></script>
+
+
+<script src="js/libraries/underscore-min.js"></script>
+
+
+<script src="js/libraries/firebase.js"></script>
+<script>
+	  // Initialize Firebase
+	  var config = {
+	  	apiKey: "AIzaSyDb9tlGoTnJSUBeWkhEsVLipY9e43_j0G4",
+	  	authDomain: "androidesm-a1099.firebaseapp.com",
+	  	databaseURL: "https://androidesm-a1099.firebaseio.com",
+	  	storageBucket: "androidesm-a1099.appspot.com",
+	  	messagingSenderId: "400596440423"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<script defer src="js/libraries/material.min.js"></script>
+</body>
+
+</html>

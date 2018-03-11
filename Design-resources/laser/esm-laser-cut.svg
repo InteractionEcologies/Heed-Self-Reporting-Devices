@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="192px" height="193px" viewBox="0 0 192 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>laser cut</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="for-si-communitea" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="laser-cut">
+            <g id="Group" transform="translate(4.000000, 5.000000)">
+                <path d="M92.5,171 C48.5933624,171 13,135.406638 13,91.5 C13,47.5933624 48.5933624,12 92.5,12 C136.406638,12 172,47.5933624 172,91.5 C172,135.406638 136.406638,171 92.5,171 Z M92.5,153 C119.302541,153 142.100514,135.854403 150.524194,111.932932 C152.77542,105.539926 154,98.6629709 154,91.5 C154,57.5344879 126.465512,30 92.5,30 C58.5344879,30 31,57.5344879 31,91.5 C31,125.465512 58.5344879,153 92.5,153 Z" id="Combined-Shape" stroke="#000000" opacity="0.62342584"></path>
+                <text id="1" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="86.4384766" y="28">1</tspan>
+                </text>
+                <text id="2" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="152.438477" y="74">2</tspan>
+                </text>
+                <text id="3" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="129.438477" y="155">3</tspan>
+                </text>
+                <text id="4" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="45.4384766" y="155">4</tspan>
+                </text>
+                <text id="5" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="21.4384766" y="73">5</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#000000" cx="92.5" cy="91.5" rx="79.5" ry="79.5"></ellipse>
+                <ellipse id="Oval" stroke="#FF0000" cx="92" cy="92" rx="92" ry="92"></ellipse>
+                <g id="2d" opacity="0" transform="translate(31.000000, 29.000000)">
+                    <text id="Very-Energetic" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#EF0000">
+                        <tspan x="34.765625" y="22">Very Energetic</tspan>
+                    </text>
+                    <text id="Less-Pleasant" transform="translate(19.225913, 65.641514) rotate(-88.000000) translate(-19.225913, -65.641514) " font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#EF0000">
+                        <tspan x="-5.90104031" y="68.1415138">Less Pleasant</tspan>
+                    </text>
+                    <text id="Very-Pleasant" transform="translate(102.886891, 65.158964) rotate(-90.000000) translate(-102.886891, -65.158964) " font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#EF0000">
+                        <tspan x="77.9845476" y="67.6589636">Very Pleasant</tspan>
+                    </text>
+                    <text id="Less-Energetic" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#EF0000">
+                        <tspan x="34.0410156" y="106">Less Energetic</tspan>
+                    </text>
+                    <path d="M61.5,0.484734105 L61.5,124.5" id="Line" stroke="#F4CBCB" stroke-linecap="square"></path>
+                    <path d="M122.5,61.5 L0.496183262,61.5" id="Line" stroke="#F4CBCB" stroke-linecap="square"></path>
+                </g>
+                <text id="How-stressed-were-yo" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="12" font-weight="400" fill="#000000">
+                    <tspan x="54.484" y="72">How stressed </tspan>
+                    <tspan x="43.804" y="87">were you feeling? </tspan>
+                    <tspan x="59.374" y="102">1 (Not at all)</tspan>
+                    <tspan x="56.596" y="117">5 (Extremely) </tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

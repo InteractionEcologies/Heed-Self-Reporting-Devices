@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+		shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+	<title>BLE Receive DATA</title>
+
+	<style>
+		@import 'ui/css/evothings-app.css';
+		@import 'app.css';
+	</style>
+
+	<script>
+	// Redirect console.log to Evothings Workbench.
+	if (window.hyper && window.hyper.log) { console.log = hyper.log }
+	</script>
+	
+	<script src="cordova.js"></script>
+	<script src="libs/evothings/evothings.js"></script>
+	<script src="libs/evothings/ui/ui.js"></script>
+	<script src="libs/evothings/easyble/easyble.js"></script>
+	<script src="libs/jquery/jquery.js"></script>
+	<script src="app.js"></script>
+
+
+	
+
+
+
+  <link rel="stylesheet" href="libs/framework7/css/framework7.ios.css">
+  <link rel="stylesheet" href="libs/framework7/css/framework7.ios.colors.css">
+</head>
+
+<body ontouchstart="">
+<recorder></recorder>
+
+
+	<header>
+
+		<button class="back" onclick="history.back()">
+			<img src="ui/images/arrow-left.svg">
+		</button>
+
+		BLE-ESM
+
+	</header>
+
+	<div id="startView">
+
+
+		<button class="red wide" onclick="app.startScan()">Scan-></button>
+
+	</div>
+
+	<div id="scanResultView" style="display:none"></div>
+
+	<div id="conversationView" style="display:none">
+		
+
+		<container></container>	
+
+	</div>
+
+	<div id="loadingView" style="display:none">
+
+		<div id="loadingIndicator">
+			<img src="img/loader.gif">
+			<p id="loadingStatus"></p>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		$(function() {
+        riot.mount('container');
+        riot.mount('recorder');
+    });
+	</script>
+
+	<script src="container.tag" type="riot/tag"></script>
+	<script src="recorder.tag" type="riot/tag"></script>
+
+	<script src="https://cdn.jsdelivr.net/riot/2.3/riot+compiler.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script type="text/javascript" src="https://cdn.plot.ly/plotly-1.5.0.min.js"></script>
+
+
+
+				<script src="libs/smoothie/smoothie.js"></script>
+			
+  <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyDb9tlGoTnJSUBeWkhEsVLipY9e43_j0G4",
+	    authDomain: "androidesm-a1099.firebaseapp.com",
+	    databaseURL: "https://androidesm-a1099.firebaseio.com",
+	    storageBucket: "androidesm-a1099.appspot.com",
+	    messagingSenderId: "400596440423"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+</body>
+
+</html>

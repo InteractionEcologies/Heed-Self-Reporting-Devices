@@ -1,0 +1,32 @@
+{
+  "name": "esm-receivebledata",
+  "version": "1.0.0",
+  "title": "ESM-ReceiveBLEData",
+  "description": "Some test description",
+  "tags": [
+    {
+      "label": "arduino",
+      "type": "platform"
+    },
+    {
+      "label": "ble",
+      "type": "comm"
+    }
+  ],
+  "libraries": [],
+  "index-file": "index.html",
+  "uuid": "22cf0579-a5c5-4fc0-a6db-3aaad11b632d",
+  "icon": "app-icon.png",
+  "doc-url": "https://evothings.com/2.1/doc/examples/redbearlab-simplechat.html",
+  "plugins": [
+    {
+      "name": "de.appplant.cordova.plugin.local-notification",
+      "version": "0.8.4"
+    }
+  ],
+  "long-description": "Some test description",
+  "author-name": "Evothings",
+  "author-email": "build@evothings.com",
+  "author-url": "https://evothings.com",
+  "cordova-id": "com.evothings.samples.ESM.ReceiveBLEData"
+}
