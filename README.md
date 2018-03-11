@@ -10,8 +10,4 @@ In situ self-reporting is a widely used technique in HCI, ubiquitous computing, 
 - /Design-resources: Artifacts used in the design of the devices
 - /dashboard: Dashboard interface for the researcher to keep track of ESM self-reports
 
-## Phone App
-![App](//gauravparuthi.com/images/heed/phone-app.png)
-
-
 More information [here](http://gauravparuthi.com/HEED). Please contact me if you would like to know more about this project.
